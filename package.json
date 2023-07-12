@@ -1,0 +1,23 @@
+{
+  "name": "notepad",
+  "version": "0.1.0",
+  "description": "Browser based notepad.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ff6347/notepad.git"
+  },
+  "keywords": [],
+  "author": "ff6347 <hash@ff6347.email>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ff6347/notepad/issues"
+  },
+  "homepage": "https://github.com/ff6347/notepad#readme",
+  "devDependencies": {
+    "@technologiestiftung/semantic-release-config": "1.2.1"
+  }
+}
