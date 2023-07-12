@@ -1,6 +1,6 @@
 {
 	"name": "@ff6347/notepad",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Browser based notepad.",
 	"main": "index.html",
 	"scripts": {
