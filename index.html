@@ -29,7 +29,7 @@
 </head>
 
 <body>
-	<div contenteditable id="pad">
+	<div contenteditable id="pad" autofocus>
 
 	</div>
 	<script>
@@ -37,17 +37,23 @@
 			const pad = document.querySelector('#pad');
 			const bodyContent = localStorage.getItem('body-content');
 			if (bodyContent) {
-				console.log("bodyContent", bodyContent);
 				pad.innerHTML = bodyContent;
-			} else {
-				console.log("bodyContent not found",);
 			}
 			pad.focus();
-		});
-		document.body.addEventListener('input', () => {
-			const pad = document.querySelector('#pad');
-			const bodyContent = pad.innerHTML;
-			localStorage.setItem('body-content', bodyContent);
+			/*
+			// TODO: wait for Webkit to support this
+			if ("virtualKeyboard" in navigator) {
+				navigator.virtualKeyboard.overlaysContent = true;
+
+				pad.addEventListener("dblclick", () => {
+					navigator.virtualKeyboard.show();
+				});
+			}
+			*/
+			document.body.addEventListener('input', () => {
+				const bodyContent = pad.innerHTML;
+				localStorage.setItem('body-content', bodyContent);
+			});
 		});
 	</script>
 
