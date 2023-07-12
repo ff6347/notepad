@@ -1,8 +1,8 @@
 {
-	"name": "notepad",
+	"name": "@ff6347/notepad",
 	"version": "0.1.0",
 	"description": "Browser based notepad.",
-	"main": "index.js",
+	"main": "index.html",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 0"
 	},
