@@ -14,6 +14,12 @@ That's it.
 
 Edit index.html. Open index.html in browser.
 
+## Todo
+
+Wait until it works on mobile (Webkit I'm looking at you).
+
+- https://developer.mozilla.org/en-US/docs/Web/API/VirtualKeyboard_API
+
 ## Deployment
 
 Copy index.html to your web server.
