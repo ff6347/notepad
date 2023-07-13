@@ -15,24 +15,37 @@ That's it.
 - Works on mobile when there is text
 - User has to know to tap into the frame
 
-
 ## Development
 
-Edit index.html. Open index.html in browser.
+~~Edit `index.html`. Open `index.html` in browser.~~
+
+Used to be easy, but as soon as you want some type checking and other goodies, you need to use a build tool.
+
+```bash
+npm ci
+npm run dev
+```
+
+## Tests:
+
+```bash
+npm run test
+```
 
 ## Todo
 
 - Wait until this works on mobile (Webkit I'm looking at you). https://developer.mozilla.org/en-US/docs/Web/API/VirtualKeyboard_API
 - maybe make it use the body again?
 
-## Ideas
-
-- Tabs of different notes 
-
 ## Deployment
 
-Copy index.html to your web server.
-Browse to index.html.
+~~Copy `index.html` to your web server. Browse to `index.html`.~~
+
+```bash
+npm run build
+```
+
+Copy `dist/**/*` to your web server. Browse to `/index.html`.
 
 ## License
 

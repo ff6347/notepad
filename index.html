@@ -10,53 +10,17 @@
 	<meta name="description" content="Browser based notepad">
 	<meta name="author" content="ff6347">
 
-	<style>
-		html {
-			max-width: 64ch;
-			margin: auto;
-			font-size: calc(1rem + 1vw);
-			line-height: 1.4;
-			font-family: monospace;
-			padding: calc(1rem + 4vw);
-		}
-
-		#pad:focus {
-			outline: none;
-		}
-	</style>
-
-
+	<link rel="stylesheet" href="style.css">
+	<script type="module" src="src/index.ts"></script>
 </head>
 
-<body>
-	<div contenteditable id="pad" autofocus>
+<body >
+	<div contenteditable id="pad" autofocus></div>
+	<div id="tabs-plus-container">
+		<div id="tabs-container"></div>
+		<button id="plus">+</button>
 
 	</div>
-	<script>
-		document.addEventListener("DOMContentLoaded", () => {
-			const pad = document.querySelector('#pad');
-			const bodyContent = localStorage.getItem('body-content');
-			if (bodyContent) {
-				pad.innerHTML = bodyContent;
-			}
-			pad.focus();
-			/*
-			// TODO: wait for Webkit to support this
-			if ("virtualKeyboard" in navigator) {
-				navigator.virtualKeyboard.overlaysContent = true;
-
-				pad.addEventListener("dblclick", () => {
-					navigator.virtualKeyboard.show();
-				});
-			}
-			*/
-			document.body.addEventListener('input', () => {
-				const bodyContent = pad.innerHTML;
-				localStorage.setItem('body-content', bodyContent);
-			});
-		});
-	</script>
-
 </body>
 
 </html>
