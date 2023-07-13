@@ -10,16 +10,20 @@ Features:
 
 That's it.
 
+## Known Issues
+
+- Works on mobile when there is text
+- User has to know to tap into the frame
+
+
 ## Development
 
 Edit index.html. Open index.html in browser.
 
 ## Todo
 
-Wait until it works on mobile (Webkit I'm looking at you).
-
-- https://developer.mozilla.org/en-US/docs/Web/API/VirtualKeyboard_API
-
+- Wait until this works on mobile (Webkit I'm looking at you). https://developer.mozilla.org/en-US/docs/Web/API/VirtualKeyboard_API
+- maybe make it use the body again?
 
 ## Ideas
 
