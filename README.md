@@ -20,6 +20,11 @@ Wait until it works on mobile (Webkit I'm looking at you).
 
 - https://developer.mozilla.org/en-US/docs/Web/API/VirtualKeyboard_API
 
+
+## Ideas
+
+- Tabs of different notes 
+
 ## Deployment
 
 Copy index.html to your web server.
