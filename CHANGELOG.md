@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/ff6347/notepad/compare/v1.0.1...v1.0.2) (2023-08-06)
+
+
+### Bug Fixes
+
+* **focus:** Remove focus from writing area ([dc89d9b](https://github.com/ff6347/notepad/commit/dc89d9b10a119f127f2605943b1c14698cfe0e2c))
+
 ## [1.0.1](https://github.com/ff6347/notepad/compare/v1.0.0...v1.0.1) (2023-07-12)
 
 
