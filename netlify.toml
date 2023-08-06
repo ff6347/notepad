@@ -1,0 +1,3 @@
+[build]
+command = "echo 'no build needed'"
+publish = "./"

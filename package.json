@@ -18,6 +18,7 @@
 	},
 	"homepage": "https://github.com/ff6347/notepad#readme",
 	"devDependencies": {
-		"@technologiestiftung/semantic-release-config": "1.2.1"
+		"@technologiestiftung/semantic-release-config": "1.2.1",
+		"netlify-cli": "15.10.0"
 	}
 }
