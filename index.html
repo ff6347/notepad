@@ -20,6 +20,9 @@
 			padding: calc(1rem + 4vw);
 		}
 
+		#pad{
+			height: 100vh;
+		}
 		#pad:focus {
 			outline: none;
 		}
@@ -29,7 +32,7 @@
 </head>
 
 <body>
-	<div contenteditable id="pad" autofocus>
+	<div contenteditable id="pad">
 
 	</div>
 	<script>
@@ -39,7 +42,7 @@
 			if (bodyContent) {
 				pad.innerHTML = bodyContent;
 			}
-			pad.focus();
+			// pad.focus();
 			/*
 			// TODO: wait for Webkit to support this
 			if ("virtualKeyboard" in navigator) {
