@@ -10,10 +10,15 @@ Features:
 
 That's it.
 
+Possible enhancements:
+
+- markdown support
+- blocknote https://www.blocknotejs.org/
+- tabs
+
 ## Known Issues
 
-- Works on mobile when there is text
-- User has to know to tap into the frame
+- User has to know to tap into the frame to see the cursor
 
 
 ## Development
