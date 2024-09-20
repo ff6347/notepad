@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/ff6347/notepad/compare/v1.0.2...v1.1.0) (2024-09-20)
+
+
+### Features
+
+* Works offline now ([0983e30](https://github.com/ff6347/notepad/commit/0983e30dea461673e6ba659719d312d485545cf0))
+
 ## [1.0.2](https://github.com/ff6347/notepad/compare/v1.0.1...v1.0.2) (2023-08-06)
 
 
