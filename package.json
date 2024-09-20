@@ -20,5 +20,23 @@
 	"devDependencies": {
 		"@technologiestiftung/semantic-release-config": "1.2.4",
 		"netlify-cli": "17.23.2"
+	},
+	"prettier": {
+		"tabWidth": 2,
+		"semi": true,
+		"singleQuote": false,
+		"useTabs": true,
+		"printWidth": 80,
+		"overrides": [
+			{
+				"files": [
+					"*.yml",
+					"*.yaml"
+				],
+				"options": {
+					"useTabs": false
+				}
+			}
+		]
 	}
 }
